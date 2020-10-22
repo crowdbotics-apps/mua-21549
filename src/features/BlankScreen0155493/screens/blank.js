@@ -42,13 +42,13 @@ export default class Blank extends React.Component {
         title="START GAME"
         color="#030303"
         style={styles.Button_5}
-        onPress={() => alert("Pressed!")}
+        onPress={() => this.props.navigation.navigate("SplashScreen1155494")}
       />
       <Button
         title="JOIN GAME"
         color="#ffffff"
         style={styles.Button_21}
-        onPress={() => alert("Pressed!")}
+        onPress={() => this.props.navigation.navigate("SplashScreen1155494")}
       />
     </View>
   )
@@ -58,6 +58,46 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     marginHorizontal: 16
+  },
+
+  View_1: {},
+  View_9: {},
+  View_10: { height: -11 },
+  Icon_25: {},
+  View_18: {},
+  View_20: { alignSelf: "center" },
+  Text_27: {
+    height: 100,
+    alignSelf: "center",
+    fontSize: 87,
+    color: "#b26262",
+    fontFamily: "Lato-Regular",
+    letterSpacing: 6
+  },
+
+  Text_29: {
+    alignSelf: "center",
+    fontFamily: "Lato-Regular",
+    textAlign: "center"
+  },
+
+  Button_5: {
+    width: "97%",
+    marginLeft: 3,
+    paddingTop: 14,
+    alignSelf: "center",
+    color: "#fcfcfc",
+    fontFamily: "Roboto-Bold",
+    letterSpacing: 4
+  },
+
+  Button_21: {
+    width: "97%",
+    marginLeft: 3,
+    paddingTop: 14,
+    alignSelf: "center",
+    fontFamily: "Roboto-Bold",
+    letterSpacing: 4
   },
   View_1: {},
   View_9: {},
